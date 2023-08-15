@@ -10,7 +10,7 @@ class QuotesTest < ApplicationSystemTestCase
     assert_selector 'h1', text: 'Quotes'
 
     click_on 'New quote'
-    assert_selector 'h1', text: 'New Quote'
+    assert_selector 'h1', text: 'New quote'
 
     fill_in 'Name', with: 'Capybara quote'
     click_on 'Create quote'
@@ -21,7 +21,7 @@ class QuotesTest < ApplicationSystemTestCase
 
   test 'Showing a quote' do
     visit quotes_path
-    click_link @quote.Name
+    click_link @quote.name
 
     assert_selector 'h1', text: @quote.name
   end
