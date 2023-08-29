@@ -1,5 +1,7 @@
 <%# app/views/quotes/index.html.erb %>
 
+<%= turbo_stream_from "quotes" %>
+
 <main class="container">
   <%= turbo_frame_tag "test" do %>
   <div class="header">
