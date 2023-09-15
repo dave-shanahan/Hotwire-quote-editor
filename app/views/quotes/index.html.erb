@@ -3,7 +3,7 @@
 <%= turbo_stream_from current_company, "quotes" %>
 
 <main class="container">
-  <%= turbo_frame_tag "test" do %>
+  <%= turbo_frame_tag "test", data: {turbo: "false"} do %>
   <div class="header">
     <h1>Quotes</h1>
     <%= link_to "New quote",
@@ -13,7 +13,7 @@
   </div>
   <% end %>
 
-  <%= turbo_frame_tag Quote.new %>
+  <%= turbo_frame_tag Quote.new, data: {turbo: "false"} %>
   <%= turbo_frame_tag "quotes" do %>
     <%= render @quotes %>
   <% end %>
