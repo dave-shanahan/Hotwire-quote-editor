@@ -3,7 +3,6 @@
 <%= turbo_stream_from current_company, "quotes" %>
 
 <main class="container">
-  <%= turbo_frame_tag "test" do %>
   <div class="header">
     <h1>Quotes</h1>
     <%= link_to "New quote",
@@ -11,7 +10,6 @@
                 data: { turbo_frame: dom_id(Quote.new) },
                 class: "btn btn--primary" %>
   </div>
-  <% end %>
 
   <%= turbo_frame_tag Quote.new %>
   <%= turbo_frame_tag "quotes" do %>
