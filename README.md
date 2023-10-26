@@ -3,7 +3,11 @@
 This project is a follow along for the [hotwire](https://hotwired.dev/)
 tutorial from [hotrails.dev](https://www.hotrails.dev/)
 
+## Screenshot of Quotes index page
+
 ![demo 1 of Hotwire app](demo_1.png)
+
+## Screenshot of Quotes show page
 
 ![demo 2 of Hotwire app](demo_2.png)
 
