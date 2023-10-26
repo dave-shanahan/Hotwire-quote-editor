@@ -4,6 +4,7 @@ This project is a follow along for the [hotwire](https://hotwired.dev/)
 tutorial from [hotrails.dev](https://www.hotrails.dev/)
 
 ![demo 1 of Hotwire app](demo_1.png)
+
 ![demo 2 of Hotwire app](demo_2.png)
 
 ## Setup
