@@ -15,7 +15,7 @@ tutorial from [hotrails.dev](https://www.hotrails.dev/)
 
 ### Requirements
 
-- Ruby 3.1.2 (This is now unsupported, DO NOT USE in production)
+- Ruby 3.1.2
 - Rails 7.0.7
 - Nodejs 20.8.0
 
